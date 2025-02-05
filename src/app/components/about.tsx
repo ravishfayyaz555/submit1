@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About: React.FC = () => {
     return (
       <section id="about" className="py-16 bg-white">
@@ -8,10 +10,12 @@ const About: React.FC = () => {
           </p>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex justify-center items-center">
-              <img
+              <Image
                 src="/images/nature.jpg"
                 alt="Nature"
-                className="w-full h-auto rounded-lg shadow-lg"
+                width={500}  // Adjust width as needed
+                height={300} // Adjust height as needed
+                className="rounded-lg shadow-lg"
               />
             </div>
             <div className="flex flex-col justify-center text-center items-center md:items-start">
@@ -26,7 +30,6 @@ const About: React.FC = () => {
         </div>
       </section>
     );
-  };
-  
-  export default About;
-  
+};
+
+export default About;
