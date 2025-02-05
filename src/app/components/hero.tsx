@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center text-white px-6">
-            <h1 className="text-5xl font-bold">Explore Nature's Beauty</h1>
+            <h1 className="text-5xl font-bold">Explore Nature&apos;s Beauty</h1>
             <p className="mt-4 text-lg">Find peace and inspiration in the wonders of nature.</p>
             <button className="mt-6 px-8 py-3 bg-sky-700 text-white rounded-lg hover:bg-sky-800">
               Discover More
@@ -24,7 +24,6 @@ const Hero: React.FC = () => {
         </div>
       </section>
     );
-  };
+};
   
-  export default Hero;
-  
+export default Hero;
