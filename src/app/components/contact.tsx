@@ -4,7 +4,7 @@ const Contact: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-natureGreen">Get in Touch</h2>
           <p className="mt-4 text-lg text-gray-600">
-            We'd love to hear from you! Reach out to us for any inquiries or feedback.
+            We&apos;d love to hear from you! Reach out to us for any inquiries or feedback.
           </p>
   
           <form
@@ -70,7 +70,6 @@ const Contact: React.FC = () => {
         </div>
       </section>
     );
-  };
+};
   
-  export default Contact;
-  
+export default Contact;
